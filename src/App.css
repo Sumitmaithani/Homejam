@@ -1,0 +1,332 @@
+/*-------------------- Hero Component --------------------*/
+
+.container {
+    background-image: url('./images//hero\ \(2\).png');
+    height: 120vh;
+    margin: 0 !important;
+    background-repeat: no-repeat;
+    background-size: 100% 125vh;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 20%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+.navbar-item {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 10%;
+    margin-top: 6px;
+}
+
+@media only screen and (max-width: 400px) {
+    .navbar-list{
+        margin-right: 30%;
+    }
+}
+/*-------------------- Hero SubComponent Heading --------------------*/
+
+.hero-heading {
+    margin-top: 192px;
+    margin-left: 10%;
+    width: 50%;
+}
+
+.hero-heading-h1 {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+}
+
+.hero-heading-h4 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+@media only screen and (max-width: 500px) {
+    .hero-heading {
+        width: 90%;
+    }
+
+    .hero-heading-h1 {
+        font-size: 50px;
+    }
+
+    .hero-heading-h4 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+/*-------------------- Hero SubComponent Label --------------------*/
+
+.hero-labels {
+    display: flex;
+    overflow-x: scroll;
+    vertical-align: bottom;
+    margin-top: 180px;
+    margin-left: 8%;
+}
+
+.hero-label {
+    border: 1px solid grey;
+    border-radius: 50%;
+    padding: 45px 70px;
+    margin: 0 40px;
+    background: #0a0b1c;
+    color: #fff;
+}
+
+.hero-labels::-webkit-scrollbar {
+    display: none;
+}
+
+.hero-label-number {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.hero-label-tag {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+@media only screen and (max-width: 500px) {
+    .hero-label {
+        margin: 0 20px;
+    }
+}
+
+/*-------------------- upComing SubComponent Label --------------------*/
+
+.upcoming {
+    height: 100vh;
+    background: #0a0b1c;
+}
+
+.upcoming-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 96px 10%;
+
+}
+
+.upcoming-title {
+
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+}
+
+.upcoming-view {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #E5C558;
+}
+
+.hr {
+    width: 48px;
+    height: 3px;
+    margin-left: 10%;
+    margin-top: -90px;
+    border: none;
+    background: #0259EB;
+    border-radius: 16px;
+}
+.upcoming-slider-slider{
+ display: flex;
+ overflow-x: scroll;
+ margin-left: 10%;
+ margin-top: 42px;
+}
+.upcoming-slider-slider::-webkit-scrollbar {
+    display: none;
+}
+.upcoming-show{
+    padding: 20px;
+}
+@media only screen and (max-width: 500px) {
+    .upcoming-title {
+        font-size: 26px;
+    }
+
+    .upcoming-view {
+        font-size: 12px;
+    }
+}
+
+/*-------------------- upComing slide SubComponent Label --------------------*/
+
+.upcoming-tag {
+    background: #E5C558;
+    border-radius: 1px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #682F26;
+}
+
+.upcoming-heading {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 8px !important;
+    margin-bottom: 18px !important;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.upcoming-card-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: -6px;
+}
+
+.upcoming-icon1 {
+    margin-left: 10px;
+    margin-top: -2px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    width: 15px;
+    color: #0259EB;
+}
+
+.upcoming-icon2 {
+    margin-left: 10px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    width: 15px;
+    color: #B727F3
+}
+
+/*-------------------- Reviews --------------------*/
+
+.reviews {
+    margin-top: -60px;
+    height: 100vh;
+}
+.review-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+.review-head {
+    font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+}
+.review-button {
+    color: #E5E5E5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 10%;
+}
+.review-hr {
+    width: 48px;
+    height: 3px;
+    margin-left: 10%;
+    border: none;
+    background: #0259EB;
+    border-radius: 16px;
+}
+
+/*-------------------- Reviews subComponent--------------------*/
+
+.review-card {
+    margin-left: 10%;
+    margin-top: 41px;
+}
+
+.review-card-des{
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+color: #FFFFFF;
+
+opacity: 0.9;
+}
+
+.review--slider{
+margin-left: 6%;
+}
